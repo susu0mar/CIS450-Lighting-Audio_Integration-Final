@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: C:\Users\Souad\Downloads\Zahraa-esp32-code-refrence\Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: C:\Users\Souad\Downloads\esp-32 FINAL PROJECT\Knob-Lighting-Audio-Integration\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

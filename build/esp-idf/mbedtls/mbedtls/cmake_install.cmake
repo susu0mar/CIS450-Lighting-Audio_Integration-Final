@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 

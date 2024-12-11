@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main
+# Install script for directory: C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

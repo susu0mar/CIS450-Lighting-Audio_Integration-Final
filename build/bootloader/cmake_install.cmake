@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

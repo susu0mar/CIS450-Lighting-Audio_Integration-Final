@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Souad/Downloads/Zahraa-esp32-code-refrence/Enhanced-Lighting-Control-with-Voice-Feedback-Using-ESP32-C3-LCDKit-main/managed_components/espressif__cmake_utilities
+# Install script for directory: C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/managed_components/espressif__cmake_utilities
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
