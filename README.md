@@ -1,4 +1,6 @@
 Project: Multitasking Control System Using FreeRTOS
+Created by Souad Omar, Sukeina Ammar, Heather Buzle, & Firas Abueida. :)
+
 
 **Overview of Project:**
 
@@ -12,7 +14,8 @@ Voice Announcement Task for real-time audio feedback.
 
 Internal hardware capabilities of the ESP32-C3.
 
-Project Architecture
+
+**Project Architecture:**
 
 User Interface (UI):
 
@@ -20,7 +23,8 @@ The UI is displayed on the LCD screen and dynamically updates based on user acti
 
 The screen reflects the current brightness level, providing immediate visual feedback as the knob is adjusted.
 
-Lighting Control Task:
+
+**Lighting Control Task:**
 
 Monitors the knob's position to adjust LED brightness.
 
@@ -28,7 +32,8 @@ Runs in a loop, updating a shared variable with the new brightness level.
 
 Uses FreeRTOS's xEventGroupSetBits to signal the Voice Announcement Task whenever a brightness change occurs.
 
-Voice Announcement Task:
+
+**Voice Announcement Task:**
 
 Operates independently of the Lighting Control Task to provide real-time audio feedback.
 
@@ -37,18 +42,19 @@ Triggered by xEventGroupWaitBits, it reads the shared brightness value and const
 Plays the corresponding audio through the connected speaker.
 
 
-ESP32-C3 Hardware:
+**ESP32-C3 Hardware:**
 
 The microcontroller supports multitasking through its hardware features, including knob panels, LEDs, and audio output components.
 
 This project specifically utilizes the LED, knob panel, and audio output to implement a concurrent control system.
 
-Key Features
+
+**Key Features**
 
 Concurrent Task Execution: FreeRTOS allows multiple tasks (UI updates, brightness control, and voice announcements) to operate concurrently without interference.
 
 
-Real-Time Feedback:
+**Real-Time Feedback:**
 
 Visual: Immediate updates on the LCD screen.
 
