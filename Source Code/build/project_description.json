@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "c3_knob_panel",
-    "project_version":    "7e9fabc-dirty",
+    "project_version":    "4a05ace-dirty",
     "project_path":       "C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/Source Code",
     "idf_path":           "C:/Users/Souad/esp/v5.3.1/esp-idf",
     "build_dir":          "C:/Users/Souad/Downloads/esp-32 FINAL PROJECT/Knob-Lighting-Audio-Integration/Source Code/build",
