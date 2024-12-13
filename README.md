@@ -6,40 +6,40 @@ Created by Souad Omar, Sukeina Ammar, Heather Buzle, & Firas Abueida. :)
 
 This project demonstrates a multitasking control system built on FreeRTOS, leveraging its threading structure to allow concurrent execution of tasks and efficient resource sharing. The implementation is based on the ESP32-C3 microcontroller and includes a comprehensive architecture encompassing the following components:
 
-User Interface (UI) via an LCD screen.
+- User Interface (UI) via an LCD screen.
 
-Lighting Control Task for managing LED brightness.
+- Lighting Control Task for managing LED brightness.
 
-Voice Announcement Task for real-time audio feedback.
+- Voice Announcement Task for real-time audio feedback.
 
-Internal hardware capabilities of the ESP32-C3.
+- Internal hardware capabilities of the ESP32-C3.
 
 
 **Project Architecture:**
 
 User Interface (UI):
 
-The UI is displayed on the LCD screen and dynamically updates based on user actions.
+- The UI is displayed on the LCD screen and dynamically updates based on user actions.
 
-The screen reflects the current brightness level, providing immediate visual feedback as the knob is adjusted.
+- The screen reflects the current brightness level, providing immediate visual feedback as the knob is adjusted.
 
 
 **Lighting Control Task:**
 
-Monitors the knob's position to adjust LED brightness.
+- Monitors the knob's position to adjust LED brightness.
 
-Runs in a loop, updating a shared variable with the new brightness level.
+- Runs in a loop, updating a shared variable with the new brightness level.
 
-Uses FreeRTOS's xEventGroupSetBits to signal the Voice Announcement Task whenever a brightness change occurs.
+- Uses FreeRTOS's xEventGroupSetBits to signal the Voice Announcement Task whenever a brightness change occurs.
 
 
 **Voice Announcement Task:**
 
-Operates independently of the Lighting Control Task to provide real-time audio feedback.
+- Operates independently of the Lighting Control Task to provide real-time audio feedback.
 
-Triggered by xEventGroupWaitBits, it reads the shared brightness value and constructs a voice announcement.
+- Triggered by xEventGroupWaitBits, it reads the shared brightness value and constructs a voice announcement.
 
-Plays the corresponding audio through the connected speaker.
+- Plays the corresponding audio through the connected speaker.
 
 
 **ESP32-C3 Hardware:**
