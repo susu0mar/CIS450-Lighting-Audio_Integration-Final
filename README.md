@@ -1,6 +1,7 @@
 Project: Multitasking Control System Using FreeRTOS
 Created by Souad Omar, Sukeina Ammar, Heather Buzle, & Firas Abueida. :)
 
+first attempt: https://github.com/susu0mar/Cis450-FinalProject-real
 
 **Overview of Project:**
 
